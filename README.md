@@ -11,16 +11,26 @@ Blocks are added and removed by editing the blocks.h header file.
 By default the blocks.h header file is created the first time you run make which copies the default config from blocks.def.h.
 This is so you can edit your status bar commands and they will not get overwritten in a future update.
 # Features of this fork
--Symbola and Awesome fonts based icons
--Time module
--RAM module
--CPU module
--Disk space module
--Battery module
--Language based keyboard layout module
--Speaker volume module
--Screen brightness module
--Internet connection module
--FFmpeg based recording module
+*Symbola and Awesome fonts based icons
+
+*Time module
+
+*RAM module
+
+*CPU module
+
+*Disk space module
+
+*Battery module
+
+*Language based keyboard layout module
+
+*Speaker volume module
+
+*Screen brightness module
+
+*Internet connection module
+
+*FFmpeg based recording module
 ## Work in progress
 -notifications module
