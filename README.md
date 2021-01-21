@@ -10,6 +10,8 @@ The status bar is made from text output from command line programs.
 Blocks are added and removed by editing the blocks.h header file.
 By default the blocks.h header file is created the first time you run make which copies the default config from blocks.def.h.
 This is so you can edit your status bar commands and they will not get overwritten in a future update.
+## Sending update signals
+If you have a block with update interval of 0 and is based on another event, a command linked to the wanted event should be in the form of `pkill -RTMIN+<block-update-signal> dwmblocks`. After that, only the wanted block in the status bar will update.
 # Features of this fork
 *Symbola and Awesome fonts based icons
 
