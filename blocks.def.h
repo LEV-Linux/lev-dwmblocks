@@ -2,6 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
+	{"",		"status_timer",			0,		4},
 	{"",		"status_recording",		0,		5},
 	{"",		"status_internet",		5,		3},
 	{"[ ",		"status_brightness",		0,		6},
